@@ -199,4 +199,6 @@ class Autentifikasi extends CI_Controller
         $this->session->unset_userdata($item);
         redirect('autentifikasi');
     }
+
+
 }
